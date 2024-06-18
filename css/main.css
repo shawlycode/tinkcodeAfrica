@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,18 +8,101 @@
     list-style: none;
     text-decoration: none;
   }
+  ul {
+    list-style: none;
+  }
 }
-
+section {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+body {
+  font-family: 'Comfortaa' 'sans-serif';
+  font-weight: 400;
+  font-style: normal;
+}
 .top_nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(76, 0, 255);
   padding: 15px 60px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
 }
-.nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 20vh;
+  /* height: 0vh; */
+  width: 85vw;
+  padding: 30px 40px;
+  margin: auto;
+}
+.nav_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.nav_links ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(37, 3, 117);
+}
+.nav_links ul li a:hover {
+  color: rgb(76, 0, 255);
+}
+.nav_links-left {
+  display: flex;
+  gap: 20px;
+}
+.left_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left_container p {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 30px;
+}
+.logo a {
+  font-size: 30px;
+  color: rgb(37, 3, 117);
+  font-weight: bold;
+}
+.logo span {
+  color: rgb(76, 0, 255);
+  font-size: 28px;
+  font-weight: bold;
+}
+.right_container .socials i {
+  padding-right: 20px;
+}
+.right_container .socials i:hover {
+  color: rgba(18, 4, 53, 0.658);
+}
+.btn a {
+  background-color: rgb(76, 0, 255);
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn a:hover {
+  background-color: rgb(37, 3, 117);
+  color: #fff;
+}
+
+.cell {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
