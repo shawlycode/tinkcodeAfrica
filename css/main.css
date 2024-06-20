@@ -246,3 +246,11 @@ nav {
   letter-spacing: 1px;
   line-height: 1.8;
 }
+
+.practiceSection {
+  background-color: #f8f4f4;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
