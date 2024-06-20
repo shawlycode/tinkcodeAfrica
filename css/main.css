@@ -252,5 +252,61 @@ nav {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 50px 120px;
+}
+.leftSection {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+form {
+  width: 30vw;
+  background-color: red;
+}
+.card {
+  background-color: rgb(76, 0, 255);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 330px;
+  margin: 10px 0px;
+  color: #f2e9f8;
+  box-shadow: rgba(115, 66, 252, 0.3) 0px 19px 38px,
+    rgba(116, 80, 245, 0.22) 0px 15px 12px;
+  transition: 500ms ease-in-out;
+}
+.card:hover,
+i:hover {
+  background-color: rgb(219, 207, 248);
+  color: #0b015d;
+  transform: scaleY(1);
+}
+.card i {
+  font-size: 30px;
+  color: #f0eaf5;
+  padding: 15px;
+  border: 2px dotted #fff;
+  border-radius: 100%;
+}
+.card i:hover {
+  font-size: 30px;
+  color: #5d0494;
+  padding: 15px;
+  border: 2px dotted #5d0494;
+  border-radius: 100%;
+}
+.card h2 {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
 }
